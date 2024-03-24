@@ -1,0 +1,153 @@
+.cart-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  
+  .product-details {
+    text-align: start;
+    padding: 10px;
+  }
+  .remove-item{
+    height: 17px;
+    margin-left: 45px;
+  }
+  
+  .empty-cart-message {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+  
+  }
+  
+  .empty-cart-message p {
+    margin-bottom: 20px;
+  }
+  
+  .product-detail {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .product-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .product-info {
+    flex-grow: 1;
+  }
+  
+  .product-info h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .product-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333333;
+  }
+  
+  .order-summary {
+    flex: 1;
+  }
+  
+  .order-summary h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .order-summary p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .order-summary p:last-child {
+    margin-bottom: 20px; /* Increased margin to create space */
+  }
+  
+  .total-price {
+    font-weight: bold;
+    color: #007bff; /* Highlight color */
+  }
+  
+  .checkout-button {
+    margin-top: 20px; /* Space between total price and button */
+  }
+  .cart-summary{    border: 1px solid;
+    padding: 30px;
+    border-radius: 10px;
+    height: 220px;
+}
+  .cart-summary button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cart-summary button:hover {
+    background-color: #0056b3;
+  }
+  
+  .empty-cart-message a {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cart-summary button:hover {
+    background-color: #0056b3;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .quantity-button:disabled {
+    background-color: #ccc;
+    color: #999;
+    cursor: not-allowed;
+  }
+  
+  .quantity {
+    margin: 0 10px;
+    font-size: 16px;
+  }
+
+  .remove-item {
+    background-color: #007bff; /* Tomato */
+    height: 24px !important;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .remove-item:hover {
+    background-color: #007bff; /* Darker Tomato color on hover */
+  }
+  
